@@ -33,6 +33,10 @@ const fetchRecipe = () => {
             button1.innerText = recipe.cuisine
             button1.id = "button"
             cuisines.append(button1)
+
+            button1.addEventListener("click", () => {
+                alert("HI")
+            })     
         })
     })
 }
