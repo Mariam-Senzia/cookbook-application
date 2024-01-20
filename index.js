@@ -19,6 +19,20 @@ const fetchRecipe = () => {
     fetch(api) 
     .then((res) => res.json())
     .then((data) => {
-        console.log(data)
+        //console.log(data)
+
+        recipes = data.recipes
+        console.log(recipes)
+       
+
+        const cuisines = document.getElementById("cuisines")
+
+        recipes.forEach((recipe) => {
+            console.log(recipe.cuisine)
+            const button1 = document.createElement("button")
+            button1.innerText = recipe.cuisine
+            button1.id = "button"
+            cuisines.append(button1)
+        })
     })
 }
