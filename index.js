@@ -34,8 +34,12 @@ const fetchRecipe = () => {
             button1.id = "button"
             cuisines.append(button1)
 
-            button1.addEventListener("click", () => {
-                alert("HI")
+            button1.addEventListener("click", (e) => {
+                e.preventDefault();
+
+                const h3 = document.createElement("h2")
+                h3.innerText = recipe.name
+                details.appendChild(h3)
             })     
         })
     })
