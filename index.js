@@ -13,6 +13,24 @@ document.addEventListener("DOMContentLoaded",() => {
             fetchRecipe();
         }
     })
+
+    /////////////////// review form
+    const newform = document.getElementById("form2");
+    const reviewinput = document.getElementById("inputreview");
+    const review = document.getElementById("review")
+    newform.addEventListener("submit",(e) => {
+        e.preventDefault();
+
+        if (reviewinput.value){
+        const comment = document.createElement("h3")
+        comment.innerText = ("Thanks for your review.")
+        review.append(comment)
+
+        const image = document.createElement("img")
+        image.src= "https://clipart-library.com/images/8cxngqeqi.jpg"
+        review.append(image)
+        }
+    })
 })
 
 const fetchRecipe = () => {
