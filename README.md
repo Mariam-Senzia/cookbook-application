@@ -28,5 +28,8 @@ Example response: { "id": 1, "name": "Classic Margherita Pizza", "ingredients": 
 
 3. Drop reviews
 
-Project task management:
-Link to trello : "https://trello.com/b/lgiMzu8l/cookbook-app"
+### Project task management:
+Link: "https://trello.com/b/lgiMzu8l/cookbook-app"
+
+### Project Deployment
+Link : "https://mariam-senzia.github.io/cookbook-application/"
