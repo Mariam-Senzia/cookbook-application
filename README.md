@@ -22,5 +22,7 @@ Example response: { "id": 1, "name": "Classic Margherita Pizza", "ingredients": 
 
 2.See name of meals and recipes on clicking any cuisine.
 
+3. Drop reviews
+
 Project task management:
 Link to trello : "https://trello.com/b/lgiMzu8l/cookbook-app"
