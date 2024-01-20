@@ -26,6 +26,7 @@ const fetchRecipe = () => {
        
 
         const cuisines = document.getElementById("cuisines")
+        const details = document.getElementById("cuisine-data")
 
         recipes.forEach((recipe) => {
             console.log(recipe.cuisine)
@@ -40,6 +41,10 @@ const fetchRecipe = () => {
                 const h3 = document.createElement("h2")
                 h3.innerText = recipe.name
                 details.appendChild(h3)
+
+                ing = document.createElement("h4")
+                ing.innerText = `INGREDIENTS: ${recipe.ingredients}`;
+                details.appendChild(ing)
             })     
         })
     })
