@@ -1,7 +1,6 @@
 /* header section */
 body {
     text-align: center;
-    background-color: #F5F5F5;
 }
 
 #title {
@@ -13,34 +12,53 @@ body {
 
 /* form */
 #search {
-    font-size: 3rem;
+    font-size: 2rem;
 }
-
-#formdiv {
-    padding: 3rem
-}
-
 #submitButton {
-    background-color: #F5BC00;
-}
-
-#inputField {
-    background-color: bisque;
+    background-color: gold;
 }
 
 #form2 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
+#form2 {
+    margin-bottom: 10rem;
+}
 #inputreview {
-    background-color: bisque;
     height: 5vh;
     width: 12%
 }
 
 #submitreview {
-    background-color: #F5BC00;
+    background-color: gold;
     display: block;
     margin-left: 49%;
     margin-top: 1rem;
+}
+
+/* button */
+#cuisines {
+    display: grid;
+    grid-template-columns: repeat(10, minmax(100px, 1fr));
+    grid-template-rows: repeat(3, minmax(100px, 1fr));
+}
+
+#button {
+    margin-top: 1rem;
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 10%;
+    background-image: url("https://img.freepik.com/premium-photo/white-culinary-banner-with-spices-vegetables-herbs-top-view-rustic-style_187166-8179.jpg?w=1380") ;
+}
+
+/* cuisine data */
+#cuisine-data {
+    font-size: 2rem;
+}
+
+#cuisine-data img{
+    max-width: 20%;;
+    max-height: 20%
 }

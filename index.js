@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded",() => {
         }
     })
 
-    /////////////////// review form
+    ///////////////////review form
     const newform = document.getElementById("form2");
     const reviewinput = document.getElementById("inputreview");
     const review = document.getElementById("review")
@@ -78,7 +78,7 @@ const fetchRecipe = () => {
                 /////append image 
                 const img = document.createElement("img")
                 img.src = recipe.image
-                img.id = ("image")
+               // img.id = ("image")
                 details.appendChild(img)
 
             })     
