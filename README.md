@@ -1,10 +1,14 @@
 # cookbook-application
 
-Culinary Adventures is an application that a user can use to search for different foods and recipes from a diverse cuisines.
+Culinary Adventures is an application that a user can use to search for different foods and recipes from diverse cuisines.
 
 ###Requirements For this project, you must:
 
-###Pre-requisite You can use this JSON API link to fetch data from your server. 'https://dummyjson.com/recipes'
+###Pre-requisite You can use this JSON API link to fetch data for your local db.json file. 'https://dummyjson.com/recipes'
+In your project directory, create a db.json file and use this dataLinks to an external site. for your server DB. Run the following command to get the backend started: json-server --watch db.json
+
+Test your server by visiting this route in the browser: " http://localhost:3000/recipes"
+
 
 ###Project Setup Once you have the plan in place for the application you want to build take the following steps:
 

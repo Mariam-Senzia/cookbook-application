@@ -36,18 +36,17 @@ document.addEventListener("DOMContentLoaded",() => {
 
 const fetchRecipe = () => {
     //////fetch data from API
-    api =  'https://dummyjson.com/recipes'
+    api =  ' http://localhost:3000/recipes'
     fetch(api) 
     .then((res) => res.json())
     .then((data) => {
-        recipes = data.recipes
-        console.log(recipes)
+        console.log(data)
 
         const cuisines = document.getElementById("cuisines")
         const details = document.getElementById("cuisine-data")
 
         ////////loop through recipes
-        recipes.forEach((recipe) => {
+        data.forEach((recipe) => {
             console.log(recipe.cuisine)
             const button1 = document.createElement("button")
             button1.innerText = recipe.cuisine
