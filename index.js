@@ -45,6 +45,17 @@ const fetchRecipe = () => {
                 ing = document.createElement("h4")
                 ing.innerText = `INGREDIENTS: ${recipe.ingredients}`;
                 details.appendChild(ing)
+
+                method = document.createElement("h4")
+                method.innerText = `INSTRUCTIONS:`
+                details.appendChild(method)
+
+                const instructions = recipe.instructions
+                instructions.forEach((element) => {
+                instru = document.createElement("li")
+                instru.innerText = element
+                details.appendChild(instru)
+                })
             })     
         })
     })
