@@ -9,7 +9,16 @@ document.addEventListener("DOMContentLoaded",() => {
 
         if (input.value){
 
-            alert("Hi")
+            fetchRecipe();
         }
     })
 })
+
+const fetchRecipe = () => {
+    api =  'https://dummyjson.com/recipes'
+    fetch(api) 
+    .then((res) => res.json())
+    .then((data) => {
+        console.log(data)
+    })
+}
