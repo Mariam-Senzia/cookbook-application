@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded",() => {
     newform.addEventListener("submit",(e) => {
         e.preventDefault();
 
+        ///// Output message
         if (reviewinput.value){
         const comment = document.createElement("h3")
         comment.innerText = ("Thanks for your review.")
@@ -40,7 +41,7 @@ const fetchRecipe = () => {
     .then((res) => res.json())
     .then((data) => {
         recipes = data.recipes
-        //console.log(recipes)
+        console.log(recipes)
 
         const cuisines = document.getElementById("cuisines")
         const details = document.getElementById("cuisine-data")
