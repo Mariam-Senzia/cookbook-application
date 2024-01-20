@@ -1,0 +1,46 @@
+/* header section */
+body {
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+#title {
+    font-size: 5rem;
+    padding: 3rem;
+    margin-top: 0;
+    background-image: url("https://img.freepik.com/premium-photo/white-culinary-banner-with-spices-vegetables-herbs-top-view-rustic-style_187166-8179.jpg?w=1380");
+}
+
+/* form */
+#search {
+    font-size: 3rem;
+}
+
+#formdiv {
+    padding: 3rem
+}
+
+#submitButton {
+    background-color: #F5BC00;
+}
+
+#inputField {
+    background-color: bisque;
+}
+
+#form2 h1 {
+    font-size: 3rem;
+}
+
+#inputreview {
+    background-color: bisque;
+    height: 5vh;
+    width: 12%
+}
+
+#submitreview {
+    background-color: #F5BC00;
+    display: block;
+    margin-left: 49%;
+    margin-top: 1rem;
+}
