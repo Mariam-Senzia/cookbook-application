@@ -55,13 +55,13 @@ const fetchRecipe = () => {
                 instru = document.createElement("li")
                 instru.innerText = element
                 details.appendChild(instru)
+                })
 
                 const img = document.createElement("img")
                 img.src = recipe.image
                 img.id = ("image")
                 details.appendChild(img)
 
-                })
             })     
         })
     })
